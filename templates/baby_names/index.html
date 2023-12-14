@@ -4,25 +4,19 @@
     <meta charset="UTF-8">
     <title>Baby Name Generator</title>
     <style>
-        .flex-container {
-            display: flex;
-            background-color: coral;
-            justify-content: space-around;
-            margin: 20px;
-            font-size: 40px;
-            color: antiquewhite;
-            text-shadow: -1px -1px 0 #000,-1px 1px 0 #000, 1px -1px 0 #000
-        }
+
     </style>
 </head>
 <br><br><br>
 <body>
-<h1>Hi {{  email }}!</h1>
-<br>
-<div class="flex-container">
-<form action='view_new_name/' method='GET'>
-    <button type='submit'>Get a new name</button>
+<b1>Please log in.</b1>
+<br><br>
+<form action='account_landing/' method='POST'>
+    <input type='email' name='email'>
+    <button type='submit'>Login</button>
 </form>
-</div>
+{#<form action='account_landing/' method='POST'>#}
+{#    <button type='submit'>Login</button>#}
+{#</form>#}
 </body>
 </html>
